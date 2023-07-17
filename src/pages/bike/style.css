@@ -1,0 +1,207 @@
+main section.context-wrapper {
+    background: #111111;
+    padding: 20px 20px;
+    margin-top: 102px;
+}
+main section.context-wrapper .context{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main section.context-wrapper .context p{
+    color: #b2b2b2;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+main section.context-wrapper .context h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+main section.context-wrapper  .context h1 span{
+    color: #ffbb00;
+}
+main section.grid-bike-for-sale{
+    width: 100%;
+    background: #111111;
+    padding: 0 20px;
+    padding-bottom: 50px;
+}
+
+main section.grid-bike-for-sale .context{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 20px;
+}
+main section.grid-bike-for-sale .context .col-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main section.grid-bike-for-sale .context .col-1 .img-bike{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+main section.grid-bike-for-sale .context .col-1 .img-bike img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main section.grid-bike-for-sale .context .col-1 .option-bikes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+main section.grid-bike-for-sale .context .col-1 .option-bikes a{
+    width: 100%;
+}
+main section.grid-bike-for-sale .context .col-1 .option-bikes a img{
+    width: 100%;
+}
+
+main section.grid-bike-for-sale .context .col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    padding-bottom: 6px;
+}
+main section.grid-bike-for-sale .context .col-2 .context-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main section.grid-bike-for-sale .context .col-2 .context-wrapper .shell-product{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+main section.grid-bike-for-sale .context .col-2 .context-wrapper .shell-product ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main section.grid-bike-for-sale .context .col-2 .context-wrapper .shell-product ul p{
+    font-size: 13px;
+    font-weight: 200;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #9c9c9c;
+}
+main section.grid-bike-for-sale .context .col-2 .context-wrapper .shell-product .btn-wrapper button{
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+}
+main section.grid-bike-for-sale .context .col-2 .context-wrapper .shell-product .btn-wrapper button:hover{
+    background: linear-gradient(#ffb60d, #e59317);
+}
+main section.grid-bike-for-sale .context .col-2 .context-wrapper .text p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #b2b2b2;
+    letter-spacing: 1.3px;
+}
+main section.grid-bike-for-sale .context .col-2 .information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main section.grid-bike-for-sale .context .col-2 .information .title{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+main section.grid-bike-for-sale .context .col-2 .information .grid-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 32px;
+    background-color:  #000000;
+    border-radius: 4px;
+    gap: 30px;
+}
+
+main section.grid-bike-for-sale .context .col-2 .information .grid-card .card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main section.grid-bike-for-sale .context .col-2 .information .grid-card .card .img{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+main section.grid-bike-for-sale .context .col-2 .information .grid-card .card .img img{
+    width: 24px;
+    height: 24px;
+}
+main section.grid-bike-for-sale .context .col-2 .information .grid-card .card .title-card h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+}  
+main section.grid-bike-for-sale .context .col-2 .information .grid-card .card .description-card p{
+    font-size: 14px;
+    color: #b2b2b2;
+}
+
+
+main section.default-404{
+    min-height: 100vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 230px 0;
+
+    flex-direction: column;
+    gap: 10px;
+}
+main section.default-404 h2{
+    font-size: 25px;
+}
+main section.default-404 p{
+    color: #111111;
+    font-size: 20px;
+}
+main section.default-404 a{
+    background: #111111;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    border: solid 2px #0ce6a8;
+    transition: all .3s ease;
+}
+main section.default-404 a:hover{
+    background: #0baa7d;
+}
+@media (max-width: 1020px) {
+    main section.grid-bike-for-sale .context .col-2 .context-wrapper .text p{
+        font-size: 1rem;
+        font-weight: 400;
+        color: #b2b2b2;
+        letter-spacing: 1.2px;
+    }
+}
+@media (max-width: 863px) {
+    main section.grid-bike-for-sale .context{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

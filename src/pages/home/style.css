@@ -1,0 +1,169 @@
+/* menu */
+
+main section.home {
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #000000 80%, #ffffff 80%);
+}
+
+main section.home .context-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+main section.home .context-wrapper .context{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    padding-top: 120px;
+}
+main section.home .context-wrapper .context .wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main section.home .context-wrapper .context .wrapper p{
+    color: #b2b2b2;
+    font-size: 1.4rem;
+}
+main section.home .context-wrapper .context h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 60px;
+}
+main section.home .context-wrapper .context .wrapper a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5, #332200);
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+}
+main section.home .context-wrapper .context a:hover{
+    background: linear-gradient(#ffb60d, #e59317);
+}
+main section.home .context-wrapper .context h1 span{
+    color: #ffbb00;
+}
+
+main section.home .context-wrapper .img-bg{
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px; 
+    padding-right: 0;
+}
+
+main section.home .context-wrapper .img-bg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+main section.escolha-bike{
+    padding: 20px;
+    padding-top: 0;
+}
+main section.escolha-bike .bike-wrapper{
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+main section.escolha-bike .bike-wrapper .title h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #111111;
+    line-height: 60px;
+}
+main section.escolha-bike .bike-wrapper .title h2 span{
+    color: #ffbb00;
+}
+
+main section.escolha-bike .bike-wrapper article{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); */
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+
+    overflow-x: scroll;
+}
+main section.escolha-bike .bike-wrapper article .card{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+main section.escolha-bike .bike-wrapper article .card .img-bike{
+    width: 100%;
+}
+
+main section.escolha-bike .bike-wrapper article .card .img-bike img{
+    width: 100%;
+    object-fit: cover;
+}
+
+main section.escolha-bike .bike-wrapper article .card h3{
+    font-family: 1.2rem;
+    color: #111111;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+main section.escolha-bike .bike-wrapper article .card h3 .span{
+    width: 15px;
+    height: 8px;
+    background: #ffb60d;
+    transition: all .3s ease;
+}
+main section.escolha-bike .bike-wrapper article .card p{
+    color: #595959;
+    padding-left: 25px;
+    font-size: 1.1rem;
+}
+main section.escolha-bike .bike-wrapper article .card:hover .span{
+    width: 25px;
+}
+/* menu */
+
+@media (max-width: 1138px) {
+    main section.home .context-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main section.home .context-wrapper .img-bg{
+        width: 100%;
+        padding: 0; 
+    }
+    main section.home .context-wrapper .img-bg img{
+        object-fit: cover;
+        aspect-ratio: 16/9;
+    }
+}
+
+@media (max-width: 860px) {
+    main section.bike-wrapper .content-bike{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main section.active{
+        background-image: linear-gradient(to right, #111111 25%, #111111 25%);
+    }
+}
+
+@media (max-width: 660px){
+    main section.escolha-bike .bike-wrapper article{
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 20px;
+    }
+}

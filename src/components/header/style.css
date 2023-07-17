@@ -1,0 +1,53 @@
+header{
+    width: 100%;
+    padding: 20px;
+    background: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+header nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 16px 0;
+}
+header nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffff;
+    position: relative;
+    text-transform: capitalize;
+}
+header nav ul a::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ffff;
+    position: absolute;
+    bottom: -8px;
+    transition: all .3s ease;
+}
+
+header nav ul a:hover::before{
+    width: 100%;
+}
+
+@media (max-width: 628px) {
+    header nav{
+        flex-direction: column;
+    }
+    main section.context-wrapper {
+        margin-top: 160px;
+    }
+}

@@ -1,0 +1,242 @@
+main section.nosso-contato{
+    background-image: linear-gradient(to bottom, #111111 60%, #f7f7f7 60%);   
+    margin-top: 101px;
+}
+
+main section.nosso-contato .context-wrapper {
+    background: #111111;
+    padding: 60px 20px;
+    margin-top: 102px;
+}
+main section.nosso-contato .context-wrapper .context{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main section.nosso-contato .context-wrapper .context p{
+    color: #b2b2b2;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+main section.nosso-contato .context-wrapper .context h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+main section.nosso-contato .context-wrapper  .context h1 span{
+    color: #ffbb00;
+}
+
+main section.nosso-contato .contato-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+main section.nosso-contato .contato-wrapper .loja-online{
+    background: #000000;
+}
+
+main section.nosso-contato .contato-wrapper form{
+    background: #ffffff;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+main section.nosso-contato .contato-wrapper form input{
+    padding: 10px;
+    font-size: 15px;
+    color: #111111;
+    border-radius: 3px;
+    background: #f7f7f7;
+    border: none;
+    width: 100%;
+}
+main section.nosso-contato .contato-wrapper form input:focus{
+    outline: solid 2px #ffbb00;
+}
+main section.nosso-contato .contato-wrapper form input::placeholder{
+    color: #111111;
+}
+main section.nosso-contato .contato-wrapper form .nome-telefone-wrapper{
+    display: flex;
+    gap: 20px;
+}
+main section.nosso-contato .contato-wrapper form .mensagem{
+    display: flex;
+    flex-direction: column;
+}
+main section.nosso-contato .contato-wrapper form .mensagem textarea{
+    padding: 10px;
+    font-size: 15px;
+    color: #111111;
+    border-radius: 3px;
+    background: #f7f7f7;
+    border: none;
+}
+main section.nosso-contato .contato-wrapper form .mensagem textarea:focus{
+    outline: solid 2px #ffbb00;
+}
+main section.nosso-contato .contato-wrapper form .mensagem textarea::placeholder{
+    color: #111111;
+}
+
+main section.nosso-contato .contato-wrapper form .btn-submit button{
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5,332200);
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+}
+main section.nosso-contato .contato-wrapper form .btn-submit button:hover{
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+main section.nosso-contato .contato-wrapper .loja-online{
+    padding: 50px 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main section.nosso-contato .contato-wrapper .loja-online h2{
+    color: #f7f7f7;
+}
+
+main section.nosso-contato .contato-wrapper .loja-online .contato{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+main section.nosso-contato .contato-wrapper .loja-online .icone{
+    position: absolute;
+    top: 4px;
+    left: -25px;
+}
+main section.nosso-contato .contato-wrapper .loja-online .endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+main section.nosso-contato .contato-wrapper .loja-online .telefone{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+main section.nosso-contato .contato-wrapper .loja-online .redes-sociais{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+main section.nossas-lojas{
+    background: #f7f7f7;
+    padding: 100px;
+}
+
+main section.nossas-lojas .content-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main section.nossas-lojas .content-wrapper .title h2{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #111111;
+}
+main section.nossas-lojas .content-wrapper .title h2 span{
+    color: #ffbb00;
+}
+
+main section.nossas-lojas .content-wrapper .content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+    gap: 50px;
+    margin-top: 40px;
+}
+main section.nossas-lojas .content-wrapper .content .card{
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+main section.nossas-lojas .content-wrapper .content .card .mapa img{
+    width: 100%;
+}
+main section.nossas-lojas .content-wrapper .content .card .context{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main section.nossas-lojas .content-wrapper .content .card .context .info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+main section.nossas-lojas .content-wrapper .content .card .context .info .local{
+    border-left: solid 2px #b2b2b2;
+    padding-left: 20px;
+}
+main section.nossas-lojas .content-wrapper .content .card .context .info .contato{
+    border-left: solid 2px #b2b2b2;
+    padding-left: 20px;
+}
+
+main section.nossas-lojas .content-wrapper .content .card .context p{
+    color: #111111;
+}
+main section.nossas-lojas .content-wrapper .content .card .context a{
+    color: #111111;
+}
+main section.nossas-lojas .content-wrapper .content .card .context .horario{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+@media (max-width: 1070px) {
+    main section.nossas-lojas .content-wrapper .content .card .context .info{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 780px) {
+    main section.nosso-contato .contato-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main section.nossas-lojas .content-wrapper .content{
+        grid-template-columns: repeat(1, 1fr);    
+    }
+}
+
+@media (max-width: 628px) {
+    header nav{
+        flex-direction: column;
+    }
+    main section.nosso-contato{
+        margin-top: 160px;
+    }
+    main section.nossas-lojas{
+        padding: 10px;
+    }
+}

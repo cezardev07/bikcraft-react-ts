@@ -1,0 +1,213 @@
+main section.nivel-seguro{
+    background-image: linear-gradient(to bottom, #111111 50%, #111111 50%);   
+    margin-top: 101px;
+    padding-bottom: 50px;
+}
+
+main section.nivel-seguro .context-wrapper {
+    background: #111111;
+    padding: 60px 20px;
+    padding-bottom: 0;
+}
+main section.nivel-seguro .context-wrapper .context{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main section.nivel-seguro .context-wrapper .context p{
+    color: #b2b2b2;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+main section.nivel-seguro .context-wrapper .context h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+main section.nivel-seguro .context-wrapper  .context h1 span{
+    color: #ffbb00;
+}
+
+main section.nivel-seguro .nivel-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    gap: 45px;
+}
+main section.nivel-seguro .nivel-wrapper .card{
+    background: #000000;
+    color: #ffffff;
+    padding: 40px;
+    padding-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    border-radius: 10px;
+}
+main section.nivel-seguro .nivel-wrapper .card .header-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;    
+}
+main section.nivel-seguro .nivel-wrapper .card .header-card h2{
+    font-size: 2rem;
+    color: #9c9c9c;     
+}
+
+main section.nivel-seguro .nivel-wrapper .card .header-card h2.gold{
+    font-size: 2rem;
+    color: #ffbb00;     
+}
+
+main section.nivel-seguro .nivel-wrapper .card .header-card .price {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    position: relative;
+}
+main section.nivel-seguro .nivel-wrapper .card .header-card .price p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+main section.nivel-seguro .nivel-wrapper .card .header-card .price span{
+    font-size: .75rem; 
+    position: absolute;  
+    color: #9c9c9c; 
+    z-index: 1;
+    bottom: -10px;
+    right: 0;  
+}
+
+main section.nivel-seguro .nivel-wrapper .card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main section.nivel-seguro .nivel-wrapper .card ul li{
+    position: relative;
+    list-style: none;
+    font-size: 1.10rem;
+    color: #ffffff;
+}
+main section.nivel-seguro .nivel-wrapper .card ul li::after{
+    position: absolute;
+    content: '🤝';
+    left: -25px;
+    list-style: none;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+main section.nivel-seguro .nivel-wrapper .card .inscreva a{
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#2e2e2e, #2e2e2e);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+main section.nivel-seguro .nivel-wrapper .card .inscreva a:hover{
+    background: linear-gradient(#3b3b3b, #3b3b3b);
+}
+
+main section.nivel-seguro .nivel-wrapper .card .inscreva a.gold{
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5, #332200);
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+main section.nivel-seguro .nivel-wrapper .card .inscreva a.gold:hover{
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+main section.vantagens{
+    padding: 60px 20px;
+    background: #000000;
+    padding-bottom: 80px;
+}
+main section.vantagens .vantagens-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main section.vantagens .vantagens-wrapper .title{
+    color: #b2b2b2;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+main section.vantagens .vantagens-wrapper .title h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+main section.vantagens .vantagens-wrapper .title h2 span{
+    color: #ffbb00;
+}
+main section.vantagens .vantagens-wrapper .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(333px, 1fr));
+    gap: 55px;
+    margin-top: 40px;
+}
+main section.vantagens .vantagens-wrapper .cards .card{
+    color: #b2b2b2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main section.vantagens .vantagens-wrapper .cards .card .icone img{
+    width: 32px;
+    height: 32px;
+}
+main section.vantagens .vantagens-wrapper .cards .card h3{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+main section.vantagens .vantagens-wrapper .cards .card p{
+    color: #b2b2b2;
+    font-size: 15px;
+}
+
+main section.perguntas{
+    height: 100vh;
+    background: #ffffff;
+}
+
+@media (max-width: 860px) {
+    main section.bike-wrapper .content-bike{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main section.active{
+        background-image: linear-gradient(to right, #111111 25%, #111111 25%);
+    }
+}
+
+@media (max-width: 760px) {
+    main section.nivel-seguro .nivel-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px;
+    }
+}
