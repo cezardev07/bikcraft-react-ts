@@ -42,7 +42,7 @@ export const Bikes = () => {
                                     Rastreador 
                                 </li>
                             </ul>
-                            <Link to="/bikes/bike/NimbusStark">MAIS SOBRE</Link>
+                            <Link to="/bikcraft-react-ts/bikes/bike/NimbusStark">MAIS SOBRE</Link>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ export const Bikes = () => {
                                     Rastreador 
                                 </li>
                             </ul>
-                            <Link to="/bikes/bike/MagicMight">MAIS SOBRE</Link>
+                            <Link to="/bikcraft-react-ts/bikes/bike/MagicMight">MAIS SOBRE</Link>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ export const Bikes = () => {
                                     Rastreador 
                                 </li>
                             </ul>
-                            <Link to="/bikes/bike/NebulaCosmic">MAIS SOBRE</Link>
+                            <Link to="/bikcraft-react-ts/bikes/bike/NebulaCosmic">MAIS SOBRE</Link>
                         </div>
                     </div>
                 </div>

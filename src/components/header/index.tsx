@@ -5,13 +5,13 @@ export const Header = () => {
     return(
         <header>
             <nav>
-                <Link to="/">
+                <Link to="/bikcraft-react-ts/">
                     <img src="https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg" alt=""/>
                 </Link>
                 <ul>
-                    <Link to="/bikes">bicicletas</Link>
-                    <Link to="/seguros">Seguros</Link>
-                    <Link to="/contact">Contato</Link>
+                    <Link to="/bikcraft-react-ts/bikes">bicicletas</Link>
+                    <Link to="/bikcraft-react-ts/seguros">Seguros</Link>
+                    <Link to="/bikcraft-react-ts/contact">Contato</Link>
                 </ul>
             </nav>
         </header>

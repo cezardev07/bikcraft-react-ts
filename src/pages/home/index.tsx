@@ -10,7 +10,7 @@ export const Home = () => {
                         <h1>Bicicletas feitas sob medida<span>.</span></h1>
                         <div className="wrapper">
                             <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-                            <Link to="./bikes">ESCOLHA A SUA</Link>
+                            <Link to="/bikcraft-react-ts/bikes">ESCOLHA A SUA</Link>
                         </div>
                     </div>
                     <div className="img-bg">
@@ -24,7 +24,7 @@ export const Home = () => {
                         <h2>escolha a sua <span>.</span></h2>
                     </div>
                     <article>
-                        <Link to="bikes" className="card">
+                        <Link to="/bikcraft-react-ts/bikes" className="card">
                             <div className="img-bike">
                                 <img src="https://www.origamid.com/projetos/bikcraft/img/bicicletas/magic-home.jpg"/>
                             </div>
@@ -32,7 +32,7 @@ export const Home = () => {
                             <p>R$ 2499</p>
                         </Link>
                         
-                        <Link to="bikes" className="card">
+                        <Link to="/bikcraft-react-ts/bikes" className="card">
                             <div className="img-bike">
                                 <img src="https://www.origamid.com/projetos/bikcraft/img/bicicletas/nimbus-home.jpg"/>
                             </div>
@@ -41,7 +41,7 @@ export const Home = () => {
                         </Link>
 
                         
-                        <Link to="bikes" className="card">
+                        <Link to="/bikcraft-react-ts/bikes" className="card">
                             <div className="img-bike">
                                 <img src="https://www.origamid.com/projetos/bikcraft/img/bicicletas/nebula-home.jpg"/>
                             </div>

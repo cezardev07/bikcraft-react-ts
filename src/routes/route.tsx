@@ -15,12 +15,12 @@ export const RoutesPage = () => {
             <Header/>
             <main>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/bikes" element={<Bikes/>}/>
-                    <Route path="/seguros" element={<SecurePlano/>}/>
-                    <Route path="/contact" element={<Contact/>}/>
+                    <Route path="/bikcraft-react-ts/" element={<Home/>}/>
+                    <Route path="/bikcraft-react-ts/bikes" element={<Bikes/>}/>
+                    <Route path="/bikcraft-react-ts/seguros" element={<SecurePlano/>}/>
+                    <Route path="/bikcraft-react-ts/contact" element={<Contact/>}/>
                     
-                    <Route path="/bikes/bike/:product" element={<Bike/>}/>
+                    <Route path="/bikcraft-react-ts/bikes/bike/:product" element={<Bike/>}/>
                 </Routes>
             </main>
             <Footer/>
