@@ -45,7 +45,9 @@ export const Bike = () => {
             if(item.bmx === product) return item
         })
         setBike(bikeSelect)
-        setImgBikeSelect(bikeSelect[0].img)
+        if(bikeSelect.length > 0){
+            setImgBikeSelect(bikeSelect[0].img)
+        }
     }, [])
     
     
